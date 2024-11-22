@@ -1,0 +1,84 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #FAF3E0; /* Light Beige Background */
+    margin: 0;
+    padding: 150px;
+  }
+  
+  .resume-container {
+    display: flex;
+    background-color: #ffffff; /* White background for resume container */
+    width: 80%;
+    margin: 0 auto;
+    border: 5px solid black;
+    border-radius: 10px;
+    box-shadow: 20px 20px 20px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Left Section Styling */
+  .left-section {
+    background-color: #565957; /* Dark Green background */
+    color: white; /* White text */
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+    border-right: 5px solid #FFEB3B; /* Gold border for separation */
+  }
+  
+  .profile-picture {
+    width: 150px;
+    height: 150px;
+    margin-top: 10%;
+    border-radius: 50%;
+    border: 5px solid #fde50c; /* yellow border around profile picture */
+    margin-bottom: 20px;
+  }
+  
+  /* Section Title Styling */
+  h1 {
+    font-size: 24px;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #2c3e50; /* Dark Gray for title */
+  }
+  
+  h3 {
+    font-size: 18px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: #ffffff; /* White text for section headers */
+    border-radius: 10px;
+    box-shadow: 0 0 15px #FFEB3B; /* Gold shadow around section headers */
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  
+  /* Right Section Styling */
+  .right-section {
+    padding: 20px;
+    width: 65%;
+    background-color: #74a887; /* Light Gold background */
+    color: #ffffff; /* Dark Green text */
+  }
+  .h1{
+    color: #ffffff;
+  }
+  
+  /* Button Styling */
+  button {
+    background-color: #1c7f84;  /* Gold background */
+    color: #ebf1f2; /* Dark Green text */
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-size: 18px;
+   margin-left: 200px;
+  }
+  
+  button:hover {
+    background-color: #2a4c72;  /* Orange on hover */
+    color: white; /* White text on hover */
+  }
